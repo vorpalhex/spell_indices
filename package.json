@@ -1,0 +1,12 @@
+{
+  "name": "spell_indices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_index.js",
+  "scripts": {
+    "start": "node generate_index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
