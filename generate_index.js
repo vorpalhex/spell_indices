@@ -14,7 +14,7 @@ spells.forEach( (spell, ind) => {
       const indexValue = spell[index];
       if(!output[indexValue]) output[indexValue] = [];
       output[indexValue].push(ind);
-    } else if(typeof spell[index] === 'array'){
+    } else if(spell[index] instanceof Array){
       const indiceValues = spell[index];
       for(let i = 0; i < indiceValues.length; i++) {
         const indexValue = spell[index][i];
